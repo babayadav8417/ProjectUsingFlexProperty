@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Property</title>
+    <!-- Animate.css  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- font awesome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            position: absolute;
+        }
+    
+        .container  li{
+            list-style: none;    
+        }
+        .container li a{
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+            margin-right: 10px; 
+        }
+        .container {
+            padding: 0;
+            margin: 0;
+            /* background-color: black; */
+            height: 40px;
+            width: 500px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+        .main-container{
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            align-items: center;
+        }
+        .main-container button{
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: green;
+            padding: 5px;
+        }
+        .header-box{
+            display: flex;
+            justify-content: center; 
+        }
+        .header{
+            width: 60%;
+            height: 400px;
+            background-color: blue;
+            margin: 10px;
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: center;
+            overflow: hidden;
+            animation-duration: 10s;
+        }
+        .header img{
+            width: 40%;
+            height: 300px;
+        }
+        .header-child{
+            padding:0;
+            margin: 0;
+        }
+        .animate__animated h1{
+            font-size: 100px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .circle-box{
+            width: 300px;
+            height:300px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 50pc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .icon-box{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .circle-box h1{
+            padding: 0;
+            margin: 0;
+        }
+        i{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+        <div class="main-container">
+            <ul class="container">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">See more</a></li>
+            </ul>
+            <button>Apply Now</button>
+        </div>
+    <div class="header-box">
+        <div class="header">
+            <img src="https://static.vecteezy.com/system/resources/previews/000/686/009/original/flat-illustration-web-analytics-design-with-two-men-around-web-page-vector.jpg" alt="" class="animate__animated animate__slideInLeft">
+            <div  class="animate__animated animate__fadeInDown">
+                <h1>Developer</h1>
+                <p>
+                    A developer is the key individual behind all software applications. Generally, developers are well versed in at least one programming language and proficient in the art of structuring and developing software code for software or a program.
+                </p>
+            </div>  
+        </div>
+    </div>
+    <div class="icon-box">
+        <div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div>
+        <div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div><div class="circle-box">
+            <div align="center">
+                <i class="fa-solid fa-hands-praying"></i>
+                <h1>Prayer to God</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
